@@ -2,4 +2,4 @@
 
 Tested on Kali Linux 2020.1
 
-If you dont want to copy my dot files comment out last 2 lines.
+If you want to copy my dot files uncomment last 2 lines and change ~ for /home/$USER in path if you are not using kali as root.
