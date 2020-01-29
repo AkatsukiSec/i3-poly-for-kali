@@ -1,0 +1,25 @@
+[global_config]
+[keybindings]
+  page_up = Page_Up
+  page_down = Page_Down
+[profiles]
+  [[default]]
+    background_color = "#1e1f29"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#ffffff"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 999999
+    scrollback_infinite = True
+    palette = "#282a36:#ff5555:#50fa7b:#f1fa8c:#bd93f9:#ff79c6:#8be9fd:#e5e5e5:#f3f3f3:#ff6e67:#5af78e:#f1fa8c:#caa9fa:#ff92d0:#9aedfe:#f8f8f2"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
