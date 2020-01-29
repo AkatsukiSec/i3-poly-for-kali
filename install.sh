@@ -25,5 +25,5 @@ cmake ..
 make -j$(nproc)
 make install
 
-cp -r ../../../Dots/* ~/.config
-curl https://archive-media-1.nyafuu.org/w/image/1516/31/1516311858159.jpg > ~/Pictures/bg.jpg
+# cp -r ../../../Dots/* ~/.config
+# curl https://archive-media-1.nyafuu.org/w/image/1516/31/1516311858159.jpg > ~/Pictures/bg.jpg
