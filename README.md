@@ -15,7 +15,7 @@ These dot files are mainly mine backup but can be a good starting point for you.
 
 This is how it looks with my dot files: 
 
-![Image of Kali](https://i.imgur.com/rFnBS77.png)
+![Image of Kali](https://i.imgur.com/VLWVQwF.png)
 
 
 ## i3 beginner guide
