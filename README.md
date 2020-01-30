@@ -20,6 +20,8 @@ This is how it looks with my dot files:
 
 ## i3 beginner guide
 
+i3 reference card: https://i3wm.org/docs/refcard.html
+
 
 If you are new to i3 i highly recommend wathing these jump start videos: 
 
