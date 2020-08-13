@@ -1,3 +1,7 @@
+cp /etc/apt/sources.list /etc/apt/sources.list.bak
+echo "deb http://ftp.de.debian.org/debian stretch main" >> /etc/apt/sources.list
+
+
 apt-get update 
 apt-get upgrade -y
 apt-get install -y git build-essential autoconf libnl-genl-3-dev pkg-config libcairo2-dev feh libxcb-composite0-dev xcb-proto libxcb-ewmh-dev python-xcbgen terminator cmake compton libxcb-shape0-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev
@@ -13,17 +17,10 @@ mkdir -p build && cd build/
  make -j8
  make install
 
-cd ../../
+apt install polybar -y
 
-wget https://github.com/polybar/polybar/releases/download/3.4.2/polybar-3.4.2.tar
-tar xvf polybar-3.4.2.tar
+cp -r ../../../Dots/* ~/.config
+curl https://archive-media-1.nyafuu.org/w/image/1516/31/1516311858159.jpg > ~/Pictures/bg.jpg
 
-cd polybar
-mkdir build
-cd build
-cmake ..
-make -j$(nproc)
-make install
-
-# cp -r ../../../Dots/* ~/.config
-# curl https://archive-media-1.nyafuu.org/w/image/1516/31/1516311858159.jpg > ~/Pictures/bg.jpg
+rm /etc/apt/sources.list
+mv /etc/apt/sources.list.bak /etc/apt/sources.list
