@@ -19,8 +19,8 @@ mkdir -p build && cd build/
 
 apt install polybar -y
 
-cp -r ../../../Dots/* ~/.config
-curl https://archive-media-1.nyafuu.org/w/image/1516/31/1516311858159.jpg > ~/Pictures/bg.jpg
+# cp -r ../../../Dots/* ~/.config
+# curl https://archive-media-1.nyafuu.org/w/image/1516/31/1516311858159.jpg > ~/Pictures/bg.jpg
 
 rm /etc/apt/sources.list
 mv /etc/apt/sources.list.bak /etc/apt/sources.list
