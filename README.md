@@ -3,7 +3,7 @@
 
 This is very basic script for installing i3, i3-gaps and polybar on Kali Linux. Optionally it will copy my dot files to your config folders.
 
-**Tested on Kali Linux 2020.2a**  
+**Tested on Kali Linux 2020.2a & 2020.3**
 
 
 
